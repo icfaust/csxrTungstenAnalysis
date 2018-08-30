@@ -2,7 +2,8 @@
 Scripts used to characterize/regress unknown tungsten line at ~.39648 nm 
 
 In depth description of the work can be found in the following pdfs:
-
+https://github.com/icfaust/csxrTungstenAnalysis/raw/master/presentations/initialAnalysisIFaust.pdf
+https://github.com/icfaust/csxrTungstenAnalysis/raw/master/presentations/IFaust_slides.pdf
 
 <p align="center">
   <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_forward.png" alt="not loaded" width="50%"/>
