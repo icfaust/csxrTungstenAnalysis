@@ -5,7 +5,7 @@ This repository is the collection of scripts I used to analyze an unknown line o
 
 This work definitively showed that the line was 45+, the method relied on generating and analyzing large datasets from 4 years of ASDEX-Upgrade discharges (500k usable samples). This data was analyzed using standard machine-learning methods and techniques, which are detailed in depth in the presentations available in the 'presentations' folder. Both a forward/simplified Support Vector Machine model, and a non-linear 0th and 2nd order Tikhonov regularized/ cross-validated solutions yielded that the line was 45+, which can be seen in the three images below.
 
-![alt text](https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_SVM.png =250x)
+<img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_SVM.png" alt="not loaded" width="250"/>
 
 
 Several SQL databases were generated for the final machine learning solution, which includes a maximum-likelihood non-linear spectral fitting code written partially in C using the C/Python/Numpy API to speed the initial generation of the spectral datasets.  Secondary datasets were generated using TRIPPy and other plasma data, and can be found in the genSQL folder. These were instrumental, as it saved significant IO to the underlying dataservers at the IPP.
