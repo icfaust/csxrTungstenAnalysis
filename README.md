@@ -6,13 +6,13 @@ This repository is the collection of scripts I used to analyze an unknown line o
 This work definitively showed that the line was 45+, the method relied on generating and analyzing large datasets from 4 years of ASDEX-Upgrade discharges (500k usable samples). This data was analyzed using standard machine-learning methods and techniques, which are detailed in depth in the presentations available in the 'presentations' folder. Both a forward/simplified Support Vector Machine model, and a non-linear 0th and 2nd order Tikhonov regularized/ cross-validated solutions yielded that the line was 45+, which can be seen in the three images below.
 <div class="row">
   <div class="column">
-    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_SVM.png" alt="not loaded" width="100%"/>
+    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_SVM.png" alt="not loaded" width="30%"/>
   </div>
   <div class="column">
-    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_forward.png" alt="not loaded" width="100%"/>
+    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/output_forward.png" alt="not loaded" width="30%"/>
   </div>
   <div class="column">
-    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/val7_inverse.png" alt="not loaded" width="100%"/>
+    <img src="https://github.com/icfaust/csxrTungstenAnalysis/blob/master/presentations/val7_inverse.png" alt="not loaded" width="30%"/>
   </div>
 </div>
 
